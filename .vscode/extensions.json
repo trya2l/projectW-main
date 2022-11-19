@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "christian-kohler.path-intellisense",
+        "dannyconnell.split-html-attributes",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "vue.volar",
+        "ndagistanley.vuejs-ext-pack",
+        "firefox-devtools.vscode-firefox-debug",
+        "ms-ceintl.vscode-language-pack-fr",
+        "ms-vscode.vscode-typescript-next"
+    ]
+}

@@ -1,0 +1,36 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>390</y><w>140</w><h>170</h></coordinates><panel_attributes>Joueur
+--
+-pseudo: string
+-victoires: int
+-points: int
+-cartes: List&lt;Carte&gt;
+--
+jouer(Carte)
+piocher()
+voir(Carte)
+echanger(Carte,Carte)
+ajouter(Joueur)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>380</y><w>100</w><h>100</h></coordinates><panel_attributes>Carte
+--
+-valeur : Enum(1,2,3,4,5,6,7,8,9,10,V,D,R)
+-points: int
+-url: string
+-couleur: Enum(R,N)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>90</y><w>130</w><h>140</h></coordinates><panel_attributes>Partie
+--
+-statut: Enum(EN_COURS,TERMINEE)
+-joueurs: List&lt;Joueur&gt;
+-pioche: List&lt;Carte&gt;
+-talon: Carte
+--
+start()
+pause()
+end()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>420</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1</panel_attributes><additional_attributes>220;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>50</x><y>140</y><w>150</w><h>270</h></coordinates><panel_attributes>lt=-
+m1=2..n
+m2=1</panel_attributes><additional_attributes>10;250;10;10;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>140</y><w>160</w><h>260</h></coordinates><panel_attributes>lt=-
+r1=paquet
+m1=54
+m2=1
+</panel_attributes><additional_attributes>100;240;100;10;10;10</additional_attributes></element></diagram>

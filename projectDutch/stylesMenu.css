@@ -1,0 +1,43 @@
+body
+{
+    display : block;
+    
+    background-image:url(Images/CadrePourMenu.png);
+    background-size: 100% 1010px;
+    background-repeat: no-repeat;
+    margin:0;
+}
+.but1
+{
+    display : block;
+    width: 30%; 
+    margin : auto;
+    margin-top: 7%;
+    background-color: rgba(0, 0, 0, 0);;
+}
+
+.but2
+{
+    display : block;
+    width: 20%; 
+    margin : auto;
+    margin-top: 3%;
+    background-color: rgba(0, 0, 0, 0);;
+}
+
+.but3
+{
+    display : block;
+    width: 20%; 
+    margin : auto;
+    margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0);;
+}
+
+.but1>img, .but2>img, .but3>img
+{
+    display : block;
+    width: 100%;
+}
+
+
